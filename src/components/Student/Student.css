@@ -1,0 +1,82 @@
+.student {
+  display: flex;
+  align-items: flex-start;
+}
+
+.student-picture {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4rem;
+  height: 7rem;
+  margin: 0.7rem 1.5rem;
+}
+
+.student-name {
+  margin: 0 0.5rem;
+}
+
+.student-info-section {
+  margin: 0.5rem 1.2rem 0;
+}
+
+.student-info-section p {
+  margin: 5px 0;
+}
+
+.student-info-section p:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.student-grade {
+  margin: 2px 0;
+}
+
+.student-tag {
+  display: inline-block;
+  margin: 2.5px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: rgb(224, 224, 224);
+}
+
+.student-tag button {
+  position: relative;
+  bottom: 9px;
+  left: 8px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  background-color: rgb(224, 224, 224);
+}
+
+.student-tag button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.student-tag-input {
+  display: block;
+  width: 170px;
+  padding: 0.6rem 5px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(205, 205, 205);
+  border-style: none none solid none;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  outline: none;
+}
+
+.student-tag-input:focus {
+  border: 1px solid rgb(0, 0, 0);
+  border-style: none none solid none;
+}
+
+.student-tag-section {
+  margin-left: 1rem;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  margin: 0 0 1rem;
+  background-color: rgba(205, 205, 205, 0.5);
+}

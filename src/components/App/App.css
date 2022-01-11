@@ -1,0 +1,84 @@
+html,
+body {
+  overflow-y: hidden;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(239, 239, 239);
+}
+
+main {
+  width: 52rem;
+  height: 40rem;
+  margin: 1rem auto;
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  background-color: rgb(255, 255, 255);
+}
+
+.students {
+  height: 31.5rem;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.students:hover {
+  overflow-y: scroll;
+}
+
+.students::-webkit-scrollbar {
+  background: none;
+  width: 8px;
+}
+
+.students::-webkit-scrollbar-track {
+  border-radius: 2rem;
+  margin: 0 0 1rem;
+}
+
+.students::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type='search']::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type='search']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.tag-search,
+.name-search {
+  width: 807px;
+  margin: 0.25rem 11px 0.8rem;
+  padding: 1rem 5px 0.5rem;
+  border: 1px solid rgb(205, 205, 205);
+  border-style: none none solid none;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  outline: none;
+}
+
+.tag-search:focus,
+.name-search:focus {
+  border: 1px solid rgb(0, 0, 0);
+  border-style: none none solid none;
+}
